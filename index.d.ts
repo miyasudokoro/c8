@@ -23,7 +23,8 @@ export declare class Report {
     src?: Array<string>,
     allowExternal?: boolean,
     skipFull?: boolean,
-    excludeNodeModules?: boolean
+    excludeNodeModules?: boolean,
+    defaultSummarizer?: string
   })
   run(): Promise<void>;
 }
